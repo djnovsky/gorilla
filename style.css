@@ -1,0 +1,47 @@
+* {
+    font-size: 14px;
+    color: #535D66;
+    font-family: Helvetica, Arial, sans-serif;
+    text-decoration: none;
+}
+.check-form{
+    background-color: #FFD900;
+    padding: 25px;
+    margin: 15px;
+}
+.result{
+    background-color: white;
+}
+.wrapper{
+ width: 960px;
+    margin: 50px auto;
+}
+
+.rate-system{
+    border: #FFD900 1px;
+    position: absolute;
+    margin: 0 auto;
+}
+.col2{
+    width: 250px;
+}
+.rating {
+    unicode-bidi: bidi-override;
+    direction: rtl;
+}
+.rating > span {
+    display: inline-block;
+    position: relative;
+    width: 1.1em;
+}
+.rating > span:hover:before,
+.rating > span:hover ~ span:before {
+    content: "\2605";
+    position: absolute;
+}
+.col3{
+    text-decoration: solid;
+}
+.check-content{
+    margin: auto;
+}
